@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio pribadi Ghani Ahmad Firmansyah, mahasiswa Sistem Informasi.">
+  <title>Ghani Ahmad Firmansyah | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ghani Portfolio">G<span>✳</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks" aria-label="Navigasi utama">
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#education">Pendidikan</a>
+      <a href="#experience">Pengalaman</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact" class="nav-cta">Hubungi ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> PORTFOLIO MAHASISWA · 2026</p>
+        <h1>Halo, gue<br><span class="gradient-text">Ghani Ahmad</span><br>Firmansyah<span class="period">.</span></h1>
+        <p class="hero-description">Mahasiswa Sistem Informasi di Universitas Widyatama yang terus mengembangkan keterampilan digital, administrasi, dan pengolahan informasi.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Lihat Proyek <span>↘</span></a>
+          <button class="button button-ghost" id="helloButton">Sapa gue 👋</button>
+        </div>
+        <div class="hero-meta">
+          <span><b>01</b> Mahasiswa</span>
+          <span><b>02</b> Web & Data</span>
+          <span><b>03</b> Terus belajar</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-blob blob-one"></div>
+        <div class="art-blob blob-two"></div>
+        <div class="art-card">
+          <div class="art-top"><span>CREATIVE MINDSET</span><span>✳</span></div>
+          <div class="avatar-frame">
+            <img src="profile-ghani.jpg" alt="Foto profil Ghani Ahmad Firmansyah" onerror="this.style.display='none';document.getElementById('avatarFallback').style.display='grid'">
+            <div id="avatarFallback" class="avatar-fallback">GA</div>
+          </div>
+          <div class="art-bottom"><div><strong>Ghani A. F.</strong><small>Information Systems Student</small></div><span class="sparkle">✦</span></div>
+        </div>
+        <div class="floating-note note-top">IDEA → IMPACT</div>
+        <div class="floating-note note-bottom">BUILD • LEARN • REPEAT</div>
+        <div class="decor-star star-one">✳</div><div class="decor-star star-two">✦</div>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / TENTANG SAYA</p><h2>Belajar hari ini,<br><span class="gradient-text">berkarya esok hari.</span></h2></div>
+      <div class="about-content">
+        <p>Gue <strong>Ghani Ahmad Firmansyah</strong>, mahasiswa Universitas Widyatama. Berdasarkan CV gue, kemampuan komputer yang gue kuasai meliputi Microsoft Word, Excel, dan PowerPoint. Gue senang belajar hal baru, bekerja sama, dan mengembangkan keterampilan yang bisa mendukung kegiatan akademik maupun profesional.</p>
+        <div class="identity-card">
+          <div><span>Nama lengkap</span><strong>Ghani Ahmad Firmansyah</strong></div>
+          <div><span>NIM</span><strong>231111041</strong></div>
+          <div><span>Kelas</span><strong>Pemrograman Web Lanjut</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-wrap" id="skills">
+      <div class="section-heading"><p class="eyebrow">02 / KEAHLIAN</p><h2>Bekal untuk<br><span class="gradient-text">terus berkembang.</span></h2></div>
+      <div class="skill-grid">
+        <article class="skill-card skill-pink"><span class="skill-icon">W</span><h3>Microsoft Word</h3><p>Membuat dan merapikan dokumen untuk kebutuhan akademik maupun administrasi.</p><span class="skill-tag">DOCUMENTS</span></article>
+        <article class="skill-card skill-yellow"><span class="skill-icon">X</span><h3>Microsoft Excel</h3><p>Mengelola data dalam lembar kerja dan menyusun informasi secara terstruktur.</p><span class="skill-tag">SPREADSHEETS</span></article>
+        <article class="skill-card skill-blue"><span class="skill-icon">P</span><h3>PowerPoint</h3><p>Menyusun materi presentasi agar informasi mudah dipahami.</p><span class="skill-tag">PRESENTATION</span></article>
+        <article class="skill-card skill-green"><span class="skill-icon">✳</span><h3>Leadership & Culture</h3><p>CV mencantumkan pengalaman volunteer pada bidang leader dan culture.</p><span class="skill-tag">VOLUNTEERING</span></article>
+      </div>
+      <p class="project-note">Catatan: bagian ini mengikuti informasi pada CV. Tambahkan keterampilan lain jika memang sudah dikuasai.</p>
+    </section>
+
+    <section class="education section-wrap" id="education">
+      <div class="section-heading"><p class="eyebrow">03 / PENDIDIKAN</p><h2>Perjalanan<br><span class="gradient-text">belajar gue.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-dot"></span><div><span class="timeline-label">PENDIDIKAN TINGGI · SAAT INI</span><h3>Universitas Widyatama</h3><p>Mahasiswa — Sistem Informasi</p><small>NIM: 231111041</small></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div><span class="timeline-label">SEKOLAH MENENGAH ATAS</span><h3>SMA Angkasa</h3><p>Pendidikan menengah atas</p></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div><span class="timeline-label">SEKOLAH MENENGAH PERTAMA</span><h3>SMP Angkasa</h3><p>Pendidikan menengah pertama</p></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div><span class="timeline-label">SEKOLAH DASAR</span><h3>Angkasa 3</h3><p>Pendidikan dasar</p></div></article>
+      </div>
+    </section>
+
+    <section class="experience section-wrap" id="experience">
+      <div class="section-heading"><p class="eyebrow">04 / PENGALAMAN & BAHASA</p><h2>Terlibat, belajar,<br><span class="gradient-text">dan bertumbuh.</span></h2></div>
+      <div class="experience-grid">
+        <article class="experience-card"><span class="experience-symbol">✦</span><h3>Volunteer Experience</h3><p>CV mencantumkan bidang <strong>Leader</strong> dan <strong>Culture</strong>. Detail organisasi dan periode bisa ditambahkan jika ingin dicantumkan lebih lengkap.</p></article>
+        <article class="experience-card"><span class="experience-symbol">文</span><h3>Bahasa</h3><p><strong>Bahasa Indonesia</strong><br>Dicantumkan dalam CV sebagai bahasa yang dikuasai.</p><p><strong>Bahasa Inggris</strong><br>CV mencantumkan kemampuan English; tingkat kemahiran belum dirinci.</p></article>
+      </div>
+    </section>
+
+    <section class="projects section-wrap" id="projects">
+      <div class="projects-heading"><div class="section-heading"><p class="eyebrow">05 / LATIHAN & PROYEK</p><h2>Eksperimen kecil,<br><span class="gradient-text">pelajaran besar.</span></h2></div>
+        <div class="filter-group" role="group" aria-label="Filter proyek"><button class="filter-btn active" data-filter="all">Semua</button><button class="filter-btn" data-filter="web">Web</button><button class="filter-btn" data-filter="data">Data</button></div>
+      </div>
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card" data-category="web"><div class="project-visual visual-purple"><span>01</span><div class="mini-window"><i></i><i></i><i></i><b>PORTFOLIO</b><div class="mini-lines"></div></div></div><div class="project-info"><div><span class="project-type">WEB DEVELOPMENT</span><h3>Personal Portfolio</h3></div><span class="project-arrow">↗</span><p>Website profil pribadi dengan navigasi, desain responsif, dan interaksi JavaScript.</p></div></article>
+        <article class="project-card" data-category="data"><div class="project-visual visual-orange"><span>02</span><div class="chart-art"><b></b><b></b><b></b><b></b><b></b><b></b></div><div class="chart-caption">DATA / INSIGHT</div></div><div class="project-info"><div><span class="project-type">DATA ANALYSIS</span><h3>Visualisasi Data</h3></div><span class="project-arrow">↗</span><p>Contoh latihan merapikan data dan menyajikan informasi dalam visual yang mudah dibaca.</p></div></article>
+        <article class="project-card" data-category="web"><div class="project-visual visual-green"><span>03</span><div class="database-art"><div>DATABASE</div><div>HTML · CSS · JS</div><div>USER EXPERIENCE</div></div></div><div class="project-info"><div><span class="project-type">WEB CONCEPT</span><h3>Konsep UI Website</h3></div><span class="project-arrow">↗</span><p>Latihan merancang bagian halaman dan memikirkan alur yang sederhana bagi pengguna.</p></div></article>
+      </div>
+      <p class="project-note">Catatan: proyek di atas merupakan contoh/latihan untuk demonstrasi. Sesuaikan dengan karya yang benar-benar pernah kamu buat.</p>
+      <div class="table-wrap"><table><caption>Ringkasan daftar proyek</caption><thead><tr><th>Nama Proyek</th><th>Kategori</th><th>Teknologi</th><th>Status</th></tr></thead><tbody>
+        <tr><td>Personal Portfolio</td><td>Web</td><td>HTML, CSS, JS</td><td><span class="status status-progress">Latihan</span></td></tr>
+        <tr><td>Visualisasi Data</td><td>Data</td><td>Spreadsheet / BI</td><td><span class="status status-plan">Contoh</span></td></tr>
+        <tr><td>Konsep UI Website</td><td>Web</td><td>HTML, CSS</td><td><span class="status status-progress">Latihan</span></td></tr>
+      </tbody></table></div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-panel"><div><p class="eyebrow">06 / TERHUBUNG</p><h2>Punya ide?<br><span class="gradient-text">Mari ngobrol.</span></h2><p>Isi formulir di samping untuk mencoba validasi JavaScript, atau kunjungi tautan eksternal berikut.</p><div class="contact-details"><p>☎ <a href="tel:082316135276">0823 1613 5276</a></p><p>✉ <a href="mailto:simeleketeharum@gmail.com">simeleketeharum@gmail.com</a></p></div><div class="external-links"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div>
+        <form id="contactForm" class="contact-form" novalidate><label for="contactName">Nama</label><input id="contactName" name="name" type="text" placeholder="Nama kamu"><label for="contactEmail">Email</label><input id="contactEmail" name="email" type="email" placeholder="nama@email.com"><label for="contactMessage">Pesan</label><textarea id="contactMessage" name="message" rows="3" placeholder="Tulis pesan singkat..."></textarea><button type="submit" class="button button-primary form-submit">Validasi pesan ↗</button><p id="formMessage" class="form-message" aria-live="polite"></p></form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home">G<span>✳</span></a><p>Dibuat untuk project UTS Pemrograman Web Lanjut.</p><a href="#home" class="back-top">Kembali ke atas ↑</a><small>© <span id="currentYear">2026</span> Ghani Ahmad Firmansyah</small></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
